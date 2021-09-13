@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;900&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Piazzolla', serif;
+}
+
+:root{
+    --main-bg:#1e272e;
+    --main-color:#0097e6;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+  height:100vh;  
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  margin: 0;
+}
+
+.services.card{
+  background-color: rgba(245, 244, 244,0.3);
+  box-shadow: 4px 5px 25px -5px rgba(243, 232, 79, 0.925),
+              0 3px 14px -5px black;
+  transition:all 2s;
+}
+.services.card:hover{
+  background-color: rgb(176, 252, 244); 
+}
+.services .card-header{
+  background-color: rgba(196, 248, 231,0.5);
+  color: rgb(250, 36, 36); 
+}
+
+.services .card-text{
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+.services_name{
+  font-size:2rem;
+  font-weight:900;
+  color: #f5f7f8;
+  text-align: center;  
+   text-shadow:4px 1px 4px black;
+  margin-bottom: 2rem;
+}
+
+/* travel */
+
+.travel_header{
+  font-size: 5rem;
+  font-weight: 900;
+  color: white;
+  margin: 2rem 0;
+  text-align: center;
+  text-shadow: 1px 1px 5px   black;
+}
+.travel_header:hover{
+  text-shadow: 1px 1px 5px   rgb(51, 214, 243);
+}
+
+.travel .table{
+  font-size:2rem;
+  background-color: rgba(214, 216, 216,0.2);
+}
+
+@media(max-width:768px){
+  .services .card-text{
+    font-size: 1rem;
+  }
+  .services_name{
+    font-size: 1.5rem;
+    color: var(--main-bg);
+    text-shadow:1px 1px  1px rgb(211, 231, 25);
+  }
+  .travel .table{
+    font-size: 1rem;
+  }
+  .travel_header{
+    font-size: 1.5rem;
+  }
+}
+ 

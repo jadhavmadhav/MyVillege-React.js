@@ -1,0 +1,18 @@
+{
+  "student" :[{
+      "id": 1,
+      "sname": "madhu",
+      "add":"nimgaondaku"
+  },
+  {
+      "id":2,
+      "sname":"rani",
+      "add":"bigawan"
+  },
+  {
+      "id":"3",
+      "sname":"Aboli",
+      "add":"rashin"
+  }
+]
+}
